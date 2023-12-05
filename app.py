@@ -1,5 +1,9 @@
 import requests
 import streamlit as st
+import os
+
+file_path = os.path.abspath('logo.png')
+st.image(file_path, caption='')
 
 # Find more emojis here: https://www.webfx.com/tools/emoji-cheat-sheet/
 st.set_page_config(page_title="Realty Watchers", page_icon=":computer:", layout="wide")
