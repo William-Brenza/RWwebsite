@@ -2,7 +2,7 @@ import requests
 import streamlit as st
 import os
 
-file_path = os.path.abspath('logo.png')
+file_path = os.path.abspath('logo.jpg')
 st.image(file_path, caption='')
 
 # Find more emojis here: https://www.webfx.com/tools/emoji-cheat-sheet/
@@ -13,7 +13,7 @@ st.markdown(style, unsafe_allow_html=True)
 col1, col2, col3 = st.columns(3)
 
 with col1:
-    st.image('logo.png', caption='')
+    st.image('logo.jpg', caption='')
 
 with col2:
     st.write(' ')
@@ -21,7 +21,7 @@ with col2:
     st.subheader("     We allow you to keep up with fast moving invesment property by doing the tedious work of checking hourly for you.")
 
 with col3:
-    st.image('logo.png', caption='')
+    st.image('logo.jpg', caption='')
 # ---- WHAT I DO ----
 with st.container():
         st.subheader(
