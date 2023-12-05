@@ -2,13 +2,13 @@ import requests
 import streamlit as st
 import os
 
-file_path = os.path.abspath('logo.jpg')
-st.image(file_path, caption='')
-
 # Find more emojis here: https://www.webfx.com/tools/emoji-cheat-sheet/
 st.set_page_config(page_title="Realty Watchers", page_icon=":computer:", layout="wide")
 style = "<style>h1, h2, h3 {text-align: center;}</style>"
 st.markdown(style, unsafe_allow_html=True)
+file_path = os.path.abspath('logo.jpg')
+st.image(file_path, caption='')
+
 # ---- HEADER SECTION ----
 col1, col2, col3 = st.columns(3)
 
